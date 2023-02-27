@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+}
+
+.image {
+    background-image: url(./assets/hero-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 705px;
+    height: 800px;
+}
+
+.preview-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 495px;
+    height: 650px;
+    margin: auto auto 0;
+}
+
+.preview-information .logo {
+    background-image: url(./assets/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 223px;
+    height: 76px;
+    margin-bottom: 50px;
+}
+
+.preview-information h1 {
+    color: #FFFFFF;
+    font: 700 80px 'Montserrat';
+    margin-bottom: 25px;
+}
+
+.preview-information h2 {
+    color: #CDCCCF;
+    font: 400 20px 'Montserrat';
+    margin-bottom: 60px;
+
+}
+
+.preview-information .buttons {
+    display: flex;
+}
+
+.preview-information .buttons .app-store {
+    background-image: url(./assets/button_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 191px;
+    height: 60px;
+}
+
+.preview-information .buttons .google-play {
+    background-image: url(./assets/button_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 191px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+
+.more-information {
+    display: flex;
+}
+
+.preview-information p {
+    color: #FFFFFF;
+    font: 400 20px 'Montserrat';
+    margin-right: 10px;
+}
+
+.preview-information .arrow {
+    background-image: url(./assets/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20.5px;
+    height: 16.5px;
+    align-self: center;
+}
