@@ -2,82 +2,102 @@
     margin-top: 180px;
 }
 
-.wrapper h1 {
+.wrapper h2 {
     font: 700 60px 'Montserrat';
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 48px;
 }
 
-.wrapper .wrapper-features {
-    background-color: #2B2A2D;
-    border-radius: 16px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    width: 892px;
-    height: 60px;
-    align-items: center;
-    margin-bottom: 80px;
-}
-
-.wrapper .wrapper-features .features {
-    background-color: #2B2A2D;
-    color: #FFFFFF;
-    border-radius: 10px;
-    font: 500 20px 'Montserrat';
-    height: 48px;
-    width: 211px;
-    text-align: center;
-}
-
-.features p {
-    margin-top: 10px;
-}
-
-.wrapper .wrapper-features .features:hover {
-    background-color: #FFFFFF;
-    color: #2B2A2D;
-
-}
-
-.editor-information {
+.wrapper .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+    margin: 48px auto 80px;
+    background: #2B2A2D;
+    border-radius: 16px;
+    cursor: pointer;
 }
 
-.information {
+.container p {
+    font: 400 18px 'Montserrat';
+    color: #FFFFFF;
+    padding: 13px 40px;
+    border-radius: 10px;
+}
+.container p:hover {
+    font: 400 18px 'Montserrat';
+    color: black; 
+    padding: 13px 40px;
+     background: #FFFFFF; 
+    border-radius: 10px;
+}
+
+.container p:first-child {
+    margin-left: 6px;
+}
+
+.container p:last-child {
+    margin-right: 6px;
+}
+
+.wrapper .block-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-feature .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 540px;
-    align-self: center;
-
+    height: 260px;
 }
 
-.information h2{
+.content h2 {
     font: 700 48px 'Montserrat';
     color: #FFFFFF;
-    margin-bottom: 36px;
 }
 
-.information p{
+.content p {
     font: 400 20px 'Montserrat';
     color: #FFFFFF;
-    margin-bottom: 30px;
-
 }
 
-.editor-information .img1{
+.block-feature .imgClass1 {
     background-image: url(./assets/image_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 660px;
     height: 520px;
-    border-radius: 32px;
+    border-radius: 32px 32px 32px 32px;
 }
-.editor-information .img2{
+
+.block-feature .imgClass2 {
     background-image: url(./assets/image_2.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 660px;
     height: 520px;
-    border-radius: 32px;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.block-feature .imgClass3 {
+    background-image: url(./assets/image_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 520px;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.block-feature .imgClass4 {
+    background-image: url(./assets/image_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 520px;
+    border-radius: 32px 32px 32px 32px;
 }
