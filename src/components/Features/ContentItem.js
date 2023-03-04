@@ -35,8 +35,8 @@ function ContentItem({ label }) {
         }
     ]
 
-    function showContent(){
-        if(label === "Internal editor") {
+    function showContent() {
+        if (label === "Internal editor") {
             return <TextContentItem key={content[0].id} imgClass={content[0].img} title={content[0].title} text={content[0].text} />
         } else if (label === 'Compact preview') {
             return <TextContentItem key={content[1].id} imgClass={content[1].img} title={content[1].title} text={content[1].text} />
