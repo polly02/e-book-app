@@ -1,0 +1,126 @@
+.wrapper {
+    margin-top: 180px;
+}
+
+.wrapper h2 {
+    font: 700 60px 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.seccions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.seccion-left {
+    background-color: #2B2A2D;
+    border-radius: 24px;
+    width: 628px;
+    height: 420px;
+    padding: 88px 105px;
+}
+
+.seccion-left h3 {
+    font: 700 42px 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.seccion-left .btn {
+    background: linear-gradient(246.65deg, #FAAB2B -55.2%, #DF5820 81.62%);
+    width: 162px;
+    height: 36px;
+    border-radius: 8px;
+    font: 500 16px 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 7px;
+    margin: auto;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.seccion-left .payment {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.seccion-left .payment p {
+    font: 500 20px 'Montserrat';
+    color: #FFFFFF;
+    margin: auto;
+
+}
+
+.seccion-left p {
+    font: 500 16px 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+
+}
+
+.seccion-right {
+    background-color: #2B2A2D;
+    border-radius: 24px;
+    width: 628px;
+    height: 420px;
+    display: flex;
+}
+
+.seccion-right .information {
+    margin: auto;
+
+}
+
+.seccion-right h3 {
+    font: 700 32px 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.seccion-right .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    
+}
+
+.seccion-right .buttons .google-play {
+    background-color: #05020D;
+    border-radius: 8px;
+    background-image: url(./assets/button_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 46px;
+    width: 148px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.seccion-right .buttons .app-store {
+    background-color: #05020D;
+    border-radius: 8px;
+    background-image: url(./assets/button_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 46px;
+    width: 148px;
+    cursor: pointer;
+
+}
+
+.seccion-right .image {
+    background-image: url(./assets/iPhone\ 15.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 372px;
+    width: 226px;
+    margin-top: 128px;
+    border-radius: 0px 0px 24px 0px;
+
+}

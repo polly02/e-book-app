@@ -1,6 +1,7 @@
 import Advantages from "../../components/Advantages/Advantages"
 import Features from "../../components/Features/Features"
 import Preview from "../../components/Preview/Preview"
+import Price from "../../components/Price/Price"
 
 function LandingPage(){
     return (
@@ -8,6 +9,7 @@ function LandingPage(){
         <Preview/>
         <Advantages/>
         <Features/>
+        <Price/>
         </>
     )
 }
