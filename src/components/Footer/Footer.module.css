@@ -1,0 +1,74 @@
+.wrapper-absolute{
+    background: #2B2A2D;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 180px;
+}
+
+.wrapper {
+    width: 1220px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.wrapper .logo {
+    background-image: url(./assets/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 182px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.wrapper nav {
+    display: flex;
+}
+
+.wrapper p {
+    font: 400 16px 'Montserrat';
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wrapper p:not(:last-child) {
+    margin-right: 40px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media .twitter {
+    background-image: url(./assets/ic_twitter.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.social-media .linked {
+    background-image: url(./assets/ic_linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-media .inst {
+    background-image: url(./assets/ic_instagram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    cursor: pointer;
+}

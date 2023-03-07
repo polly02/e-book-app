@@ -1,7 +1,13 @@
 import style from "./Price.module.css"
-import { Switch } from '@mui/material'
+import { useState } from 'react'
 
 function Price() {
+    const [swap, setSwap] = useState(false)
+
+    function doSwapSwitch() {
+        setSwap(!swap ? true : false)
+    }
+
     return (
         <div className={style["wrapper"]}>
             <h2>Honest and thoughtful pricing</h2>
@@ -11,7 +17,7 @@ function Price() {
                     <div className={style["btn"]}>$86,68 billed yearly</div>
                     <div className={style["payment"]}>
                         <p>Pay Yearly</p>
-                        <Switch defaultChecked color="default" />
+                        <div onClick={doSwapSwitch} className={!swap ? style['swap-1'] : style['swap-2']}></div>
                         <p>Monthly</p>
                     </div>
                     <p>No ads, hidden fees. Your data stays private, and we get to focus on building the best product for you.</p>
